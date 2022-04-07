@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
                 //Toast.makeText(this,"数字を入力させてください", Toast.LENGTH_LONG).show()
                 //(4-2)エラー処理:アラートダイアログ
                 AlertDialog.Builder(this)
-                    .setTitle("ERROR!")
+                    .setTitle("ERROR!!")
                     .setMessage("数字を入力してください")
                     .setPositiveButton("OK",null)
                     .show()
